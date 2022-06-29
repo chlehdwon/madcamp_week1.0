@@ -25,7 +25,7 @@ class FragmentAdapter (fm : FragmentManager): FragmentPagerAdapter(fm) {
         {
             0->"Contact"
             1->"Images"
-            2->"Hidden"
+            2->"Special"
             else -> "main"
         }
         return title     }
