@@ -20,23 +20,23 @@ class MainActivity : AppCompatActivity() {
         pager.adapter = pagerAdapter
         val tab = findViewById<TabLayout>(R.id.tablayout)
         tab.setupWithViewPager(pager)
-        initRecycler()
+//        initRecycler()
     }
 
-    private fun initRecycler() {
-        profileAdapter = ProfileAdapter(this)
-
-        val profile = findViewById<RecyclerView>(R.id.rv_profile)
-        profile.adapter = profileAdapter
-
-
-        datas.apply {
-            add(ProfileData(name = "Jaein Kim", age = 24))
-            add(ProfileData(name = "Dongwon Choi", age = 23))
-
-            profileAdapter.datas = datas
-            profileAdapter.notifyDataSetChanged()
-
-        }
-    }
+//    private fun initRecycler() {
+//        profileAdapter = ProfileAdapter(this)
+//
+//        val profile = findViewById<RecyclerView>(R.id.rv_profile)
+//        profile.adapter = profileAdapter
+//
+//
+//        datas.apply {
+//            add(ProfileData(name = "Jaein Kim", age = 24))
+//            add(ProfileData(name = "Dongwon Choi", age = 23))
+//
+//            profileAdapter.datas = datas
+//            profileAdapter.notifyDataSetChanged()
+//
+//        }
+//    }
 }
