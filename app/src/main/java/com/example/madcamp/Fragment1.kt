@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
@@ -19,15 +21,10 @@ import org.json.JSONObject
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [Fragment1.newInstance] factory method to
- * create an instance of this fragment.
- */
 class TestData(
     private var data1: String? = null,
     private var data2: String? = null,
-    private var data3: String? = null
+//    private var data3: String? = null
 ){
     fun getData1(): String? {
         return data1
@@ -41,12 +38,12 @@ class TestData(
     fun setData2(address: String) {
         this.data2 = data2
     }
-    fun getData3(): String? {
-        return data3
-    }
-    fun setData3(type: String) {
-        this.data3 = data3
-    }
+//    fun getData3(): String? {
+//        return data3
+//    }
+//    fun setData3(type: String) {
+//        this.data3 = data3
+//    }
 }
 
 class Fragment1 : Fragment() {
@@ -75,9 +72,9 @@ class Fragment1 : Fragment() {
 
         for(i in 0 until jArray.length()){
             val obj = jArray.getJSONObject(i)
-            val name = obj.getString("name")
-            val number = obj.getString("number")
-            dataList.add(TestData(name, number, "123"))
+            val name = obj.getString("Name")
+            val number = obj.getString("Phone")
+            dataList.add(TestData(name, number))
         }
 
         // Fragment에서 전달받은 list를 넘기면서 ListAdapter 생성
@@ -87,5 +84,6 @@ class Fragment1 : Fragment() {
         // RecyclerView.adapter에 지정
         listView.adapter = listAdapter
     }
+
 
 }

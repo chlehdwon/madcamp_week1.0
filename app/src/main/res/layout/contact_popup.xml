@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f7"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Contact Name"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f7"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dialog_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableTop="@drawable/message"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="Message"
+                android:textAlignment="center"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:id="@+id/dialog_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dialog_btn"
+                android:layout_alignBottom="@+id/dialog_btn"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableTop="@drawable/phone"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="Mobile"
+                android:textAlignment="center"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:id="@+id/dialog_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dialog_btn"
+                android:layout_alignBottom="@+id/dialog_btn"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/white"
+                android:drawableTop="@drawable/video"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="video"
+                android:textAlignment="center"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:id="@+id/dialog_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dialog_btn"
+                android:layout_alignBottom="@+id/dialog_btn"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/dialog_btn"
+                android:backgroundTint="@android:color/white"
+                android:drawableTop="@drawable/mail"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="Mail"
+                android:textAlignment="center"
+                android:textColor="#007AFF" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dialog_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/imageButtonCamera"
+            android:background="#ffffff"
+            android:text="Phone Number"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/dialog_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:text="Phone Number"
+            android:textColor="#007AFF"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_24" />
+
+
+</RelativeLayout>

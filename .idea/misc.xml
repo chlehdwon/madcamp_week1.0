@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/drawable/direct_message_24.xml" value="0.276" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.276" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/drawable/profile_24.xml" value="0.276" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/drawable/video.xml" value="0.276" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/activity_image_full.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/contact_popup.xml" value="0.264" />
         <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/fragment_1.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/fragment_2.xml" value="0.14583333333333334" />
         <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/fragment_3.xml" value="0.14583333333333334" />
-        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/item_data_list.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/fragment_frag.xml" value="0.30364583333333334" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/item_data_list.xml" value="0.1" />
+        <entry key="..\:/Users/cooki/Desktop/MadCamp_week1/app/src/main/res/layout/row_custom_recycler_item.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>

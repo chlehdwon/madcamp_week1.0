@@ -12,6 +12,7 @@ import org.json.JSONArray
 import java.io.IOException
 import java.io.InputStream
 import kotlinx.android.synthetic.main.activity_main.*
+import androidx.fragment.app.Fragment
 
 
 class MainActivity : AppCompatActivity() {
