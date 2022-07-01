@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/activity_image_full.xml" value="0.1" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/fragment_1.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/fragment_2.xml" value="0.1" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/fragment_3.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/fragment_blank.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/fragment_frag.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/item_data_list.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/katri/Downloads/madcamp_week1/app/src/main/res/layout/row_custom_recycler_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="14" project-jdk-type="JavaSDK" />
+</project>
